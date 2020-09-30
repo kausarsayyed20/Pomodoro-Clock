@@ -1,4 +1,5 @@
 {
+  "homepage": "", // Enter the URL for github pages
   "name": "pomodoro-clock",
   "version": "0.1.0",
   "private": true,
