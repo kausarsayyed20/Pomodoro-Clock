@@ -1,117 +1,74 @@
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+<!-- # Pomodoro Clock -->
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/kausarsayyed20/Pomodoro-Clock/">
+   <img src="https://img.icons8.com/clouds/100/000000/timer.png"/>
   </a>
 
-  <h3 align="center">Pomodoro Clock</h3>
+  <h1 align="center">Pomodoro Clock</h1>
 
   <p align="center">
-    An awesome TOMATO TIMER enhance your productivity!
+    An simple pomodoro clock to enhance your productivity!
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://pomodoro-817b5.web.app/">View Demo</a>
+   
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
 
-## Table of Contents
+# Introduction
 
-- [About the Project](#about-the-project)
-  - [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+The Pomodoro Technique is a time management method that aims to maximize productivity through focused sessions of work. Tasks are divided in intervals of 25 minutes, also called a pomodoro session. After each interval, the worker takes a short break for about 5 minutes.
 
-<!-- ABOUT THE PROJECT -->
+1.Get a to-do list and a timer.
 
-## About The Project
+2.Set your timer for 25 minutes, and focus on a single task until the timer rings.
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/kausarsayyed20/Pomodoro-Clock/PomodoroSnapshot.png)
+3.When your session ends, mark off one pomodoro and record what you completed.
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+4.Then enjoy a five-minute break.
 
-Here's why:
+5.After four pomodoros, take a longer, more restorative 15-30 minute break.
 
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should element DRY principles to the rest of your life :smile:
+# Techology Stack
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+<img align="left" alt="React" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
+<img align="left" alt="HTML5" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+<img align="left" alt="CSS3" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+<img align="left" alt="npm" width="40px" src="https://img.icons8.com/color/48/000000/npm.png" />
+<img align="left" alt="firebase" width="40px" src="https://img.icons8.com/color/48/000000/google-firebase-console.png" />
+<img align="left" alt="docker" width="40px" src="https://img.icons8.com/color/64/000000/docker.png" />
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
-### Built With
 
-This is build with the help of create-react-app from facebook ,which has everything we need to create a full react app.
 
-- [Create react app](https://reactjs.org/docs/create-a-new-react-app.html)
+<br>
+<br>
 
-<!-- GETTING STARTED -->
+# Prerequisites
 
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-
-```sh
-npm install npm@latest -g
-```
-
-### Installation
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+  
+  ### Installation
 
 1. Clone the repo
+   ```sh
+   git clone https://github.com/kausarsayyed20/Pomodoro-Clock.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+# Screenshots
 
-```sh
-git clone https://github.com/kausarsayyed20/Pomodoro-Clock
-```
-
-3. Install NPM packages
-
-```sh
-npm install
-```
-
-4. Run the project
-
-```JS
-npm start
-```
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
-
+![pomodoro](https://user-images.githubusercontent.com/36737476/129953352-555b9ac7-599f-4438-ab64-df69c88b7008.PNG)
+   
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -122,28 +79,10 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-<!-- CONTACT -->
-
 ## Contact
 
-Rohit Agharkar - [@rohithamster](https://twitter.com/rohithamster) - rohithamster@gmail.com
+Project Link: https://github.com/kausarsayyed20/Pomodoro-Clock/
 
-Kausar Sayyed - [@Kausarsayyed20](https://twitter.com/Kausarsayyed20) - kausarsayyed.20@gmail.com
+Kausar Sayyed - kausarsayyed.20@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## Acknowledgements
-
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
+Rohit Agharkar - rohitsa40@gmail.com
